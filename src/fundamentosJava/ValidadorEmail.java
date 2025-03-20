@@ -1,3 +1,5 @@
+package fundamentosJava;
+
 import java.util.Scanner;
 
 public class ValidadorEmail {
