@@ -26,4 +26,11 @@ public class Coche {
     public void setDisponible(boolean disponible) {
         this.disponible = disponible;
     }
+
+    //Métodos
+    @Override
+    public String toString() {
+        return marca + " " + modelo + " (" + año + ") - " +
+                (disponible ? "Disponible" : "No disponible");
+    }
 }
