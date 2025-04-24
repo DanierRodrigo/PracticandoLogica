@@ -1,6 +1,12 @@
 package pOO.alquilerCoches;
 
+//Representa un coche alquilable
 public class Coche {
 
-    //Representa un coche que se puede alquilar
+    //Atributos
+    private String marca;
+    private String modelo;
+    private int año;
+    private boolean disponible;
+
 }
