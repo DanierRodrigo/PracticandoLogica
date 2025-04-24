@@ -14,4 +14,5 @@ public class Cliente {
         this.documento = documento;
         this.telefono = telefono;
     }
+
 }
