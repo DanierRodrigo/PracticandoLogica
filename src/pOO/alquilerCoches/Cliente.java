@@ -7,4 +7,11 @@ public class Cliente {
     private String nombre;
     private String documento;
     private String telefono;
+
+    //Constructor
+    public Cliente(String nombre, String documento, String telefono) {
+        this.nombre = nombre;
+        this.documento = documento;
+        this.telefono = telefono;
+    }
 }
