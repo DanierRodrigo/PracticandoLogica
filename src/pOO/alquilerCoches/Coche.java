@@ -16,4 +16,14 @@ public class Coche {
         this.año = año;
         this.disponible = true; // Por defecto, disponible
     }
+
+    // Getters y Setters
+    public String getMarca() { return marca; }
+    public String getModelo() { return modelo; }
+    public int getAño() { return año; }
+    public boolean isDisponible() { return disponible; }
+
+    public void setDisponible(boolean disponible) {
+        this.disponible = disponible;
+    }
 }
