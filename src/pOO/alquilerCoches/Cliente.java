@@ -19,4 +19,10 @@ public class Cliente {
     public String getNombre() {
         return nombre;
     }
+
+    //Métodos
+    @Override
+    public String toString() {
+        return nombre + " - Doc: " + documento;
+    }
 }
