@@ -15,4 +15,8 @@ public class Cliente {
         this.telefono = telefono;
     }
 
+    //Getter
+    public String getNombre() {
+        return nombre;
+    }
 }
