@@ -18,4 +18,9 @@ public class Alquiler {
         this.fechaInicio = fechaInicio;
         this.fechaFin = fechaFin;
     }
+
+    //Getter
+    public Coche getCoche() {
+        return coche;
+    }
 }
