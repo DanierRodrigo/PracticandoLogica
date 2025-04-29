@@ -11,4 +11,11 @@ public class Alquiler {
     private Date fechaInicio;
     private Date fechaFin;
 
+    //Constructor
+    public Alquiler(Cliente cliente, Coche coche, Date fechaInicio, Date fechaFin) {
+        this.cliente = cliente;
+        this.coche = coche;
+        this.fechaInicio = fechaInicio;
+        this.fechaFin = fechaFin;
+    }
 }
