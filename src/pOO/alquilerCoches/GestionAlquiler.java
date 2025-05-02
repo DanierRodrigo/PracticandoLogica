@@ -1,6 +1,12 @@
 package pOO.alquilerCoches;
 
+import java.util.List;
+
+//Representa la gestión de coches y alquileres
 public class GestionAlquiler {
 
-    //Representa la gestión de coches y alquileres
+    //Atributos
+    private List<Coche> coches;
+    private List<Alquiler> alquileres;
+
 }
