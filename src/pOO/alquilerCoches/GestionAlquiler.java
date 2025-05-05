@@ -9,4 +9,9 @@ public class GestionAlquiler {
     private List<Coche> coches;
     private List<Alquiler> alquileres;
 
+    //Constructor
+    public GestionAlquiler(List<Alquiler> alquileres, List<Coche> coches) {
+        this.alquileres = alquileres;
+        this.coches = coches;
+    }
 }
