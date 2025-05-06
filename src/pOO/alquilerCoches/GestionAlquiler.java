@@ -14,4 +14,9 @@ public class GestionAlquiler {
         this.alquileres = alquileres;
         this.coches = coches;
     }
+
+    //Métodos
+    public void agregarCoche(Coche coche){
+        coches.add(coche);
+    }
 }
