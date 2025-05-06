@@ -19,4 +19,13 @@ public class GestionAlquiler {
     public void agregarCoche(Coche coche){
         coches.add(coche);
     }
+
+    public void mostrarCochesDisponibles(){
+        System.out.println("\\nCoches disponibles: ");
+        for (Coche coche: coches){
+            if(coche.isDisponible()){
+                System.out.println(coche);
+            }
+        }
+    }
 }
