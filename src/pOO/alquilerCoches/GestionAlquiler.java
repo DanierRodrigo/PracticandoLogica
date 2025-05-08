@@ -1,5 +1,6 @@
 package pOO.alquilerCoches;
 
+import java.util.Date;
 import java.util.List;
 
 //Representa la gestión de coches y alquileres
@@ -27,5 +28,17 @@ public class GestionAlquiler {
                 System.out.println(coche);
             }
         }
+    }
+
+    public void alquilarCoche(Cliente cliente, String modelo, Date fechaInicio, Date fechaFin){
+        for (Coche coche : coches){
+            if(coche.getModelo().equalsIgnoreCase(modelo) && coche.isDisponible()){
+                coche.setDisponible(false);
+                alquileres.add(new Alquiler(cliente, coche, fechaInicio, fechaFin));
+                System.out.println("\\n✅ Coche alquilado a " + cliente.getNombre() + ": " + coche);
+                return;
+            }
+        }
+        System.out.println("\\n❌ No hay coches disponibles del modelo '" + modelo + "'");
     }
 }
