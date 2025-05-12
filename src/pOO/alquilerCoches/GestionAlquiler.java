@@ -41,4 +41,16 @@ public class GestionAlquiler {
         }
         System.out.println("\\n❌ No hay coches disponibles del modelo '" + modelo + "'");
     }
+
+    public void devolverCoche(String modelo){
+        for (Alquiler alquiler : alquileres){
+            Coche coche = alquiler.getCoche();
+            if (coche.getModelo().equalsIgnoreCase(modelo) && !coche.isDisponible()){
+                coche.setDisponible(true);
+                System.out.println("\\n🔄 Coche devuelto: " + coche);
+                return;
+            }
+        }
+        System.out.println("\\n❌ No se encontró un coche alquilado con el modelo '" + modelo + "'");
+    }
 }
