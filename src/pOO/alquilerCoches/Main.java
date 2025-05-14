@@ -12,5 +12,8 @@ public class Main {
         gestion.agregarCoche(new Coche("Honda", "Civic", 2019, true));
         gestion.agregarCoche(new Coche("Ford", "Fiesta", 2022, true));
         gestion.agregarCoche(new Coche("Porche", "Carrera GT", 2005, true));
+
+        //Creamos cliente
+        Cliente cliente1 = new Cliente("Daniel Rodrigo", "28826162", "638254112");
     }
 }
