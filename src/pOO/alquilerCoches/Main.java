@@ -15,5 +15,11 @@ public class Main {
 
         //Creamos cliente
         Cliente cliente1 = new Cliente("Daniel Rodrigo", "28826162", "638254112");
+
+        //Mostrar coches disponibles
+        gestion.mostrarCochesDisponibles();
+
+
+
     }
 }
