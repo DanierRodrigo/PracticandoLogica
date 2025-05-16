@@ -1,14 +1,20 @@
 package pOO.alquilerCoches;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        //Iniciamos GestionAlquiler
-        GestionAlquiler gestion = new GestionAlquiler();
+        // Crear lista de coches y alquileres
+        List<Coche> listaCoches = new ArrayList<>();
+        List<Alquiler> listaAlquileres = new ArrayList<>();
+
+        // Crear instancia de gestión
+        GestionAlquiler gestion = new GestionAlquiler(listaAlquileres, listaCoches);
 
         //Agregamos coches
         gestion.agregarCoche(new Coche("Toyota", "Corolla", 2020, true));
@@ -22,12 +28,7 @@ public class Main {
         //Mostrar coches disponibles
         gestion.mostrarCochesDisponibles();
 
-        //Alquilar coche
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-        Date inicio = sdf.parse("24/04/2025");
-        Date fin = sdf.parse("28/04/2025");
 
-        gestion.alquilarCoche(cliente1, "Porche", 15/05/2025, 16/05/2025);
 
 
 
