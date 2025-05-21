@@ -16,4 +16,9 @@ public class Paciente {
         this.edad = edad;
         this.historial = new ArrayList<>();
     }
+
+    //Métodos
+    public void agregarHistorial(String entrada) {
+        historial.add(entrada);
+    }
 }
