@@ -33,4 +33,12 @@ public class Paciente {
     public List<String> getHistorial() {
         return new ArrayList<>(historial);
     }
+
+    @Override
+    public String toString() {
+        return "Paciente{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                '}';
+    }
 }
