@@ -21,4 +21,16 @@ public class Paciente {
     public void agregarHistorial(String entrada) {
         historial.add(entrada);
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public List<String> getHistorial() {
+        return new ArrayList<>(historial);
+    }
 }
