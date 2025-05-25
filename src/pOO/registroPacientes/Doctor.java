@@ -5,5 +5,11 @@ public class Doctor {
     //Atributos
     private String nombre;
     private String especialidad;
+
+    //Constructor
+    public Doctor(String nombre, String especialidad) {
+        this.nombre = nombre;
+        this.especialidad = especialidad;
+    }
 }
 
