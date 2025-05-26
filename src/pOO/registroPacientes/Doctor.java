@@ -11,5 +11,14 @@ public class Doctor {
         this.nombre = nombre;
         this.especialidad = especialidad;
     }
+
+    //Métodos
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getEspecialidad() {
+        return especialidad;
+    }
 }
 
