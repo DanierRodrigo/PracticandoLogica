@@ -20,5 +20,13 @@ public class Doctor {
     public String getEspecialidad() {
         return especialidad;
     }
+
+    @Override
+    public String toString() {
+        return "Doctor{" +
+                "nombre='" + nombre + '\'' +
+                ", especialidad='" + especialidad + '\'' +
+                '}';
+    }
 }
 
