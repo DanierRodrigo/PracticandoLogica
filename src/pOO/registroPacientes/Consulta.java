@@ -16,5 +16,6 @@ public class Consulta {
         this.doctor = doctor;
         this.fecha = fecha;
         this.diagnostico = diagnostico;
+        paciente.agregarHistorial("Consulta: " + fecha + ", Dr. " + doctor.getNombre() + ", Diagnóstico: " + diagnostico);
     }
 }
