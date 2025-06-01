@@ -18,4 +18,21 @@ public class Consulta {
         this.diagnostico = diagnostico;
         paciente.agregarHistorial("Consulta: " + fecha + ", Dr. " + doctor.getNombre() + ", Diagnóstico: " + diagnostico);
     }
+
+    //Métodos
+    public Paciente getPaciente() {
+        return paciente;
+    }
+
+    public Doctor getDoctor() {
+        return doctor;
+    }
+
+    public LocalDate getFecha() {
+        return fecha;
+    }
+
+    public String getDiagnostico() {
+        return diagnostico;
+    }
 }
