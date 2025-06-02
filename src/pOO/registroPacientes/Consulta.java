@@ -35,4 +35,14 @@ public class Consulta {
     public String getDiagnostico() {
         return diagnostico;
     }
+
+    @Override
+    public String toString() {
+        return "Consulta{" +
+                "paciente=" + paciente +
+                ", doctor=" + doctor +
+                ", fecha=" + fecha +
+                ", diagnostico='" + diagnostico + '\'' +
+                '}';
+    }
 }
