@@ -21,6 +21,15 @@ public class SistemaGestionPacientes {
         List<Consulta> consultas = new ArrayList<>();
         consultas.add(new Consulta(juan, drRodrigo, LocalDate.of(2025, 5, 20), "Traumatismo craneoencefálico"));
         consultas.add(new Consulta(maria, draBucas, LocalDate.of(2025, 5, 19), "Gripe"));
-        consultas.add(new Consulta(maria, drCalero, LocalDate.of(2025, 5, 19), "Rehabilitación de hombro"));
+        consultas.add(new Consulta(miguel, drCalero, LocalDate.of(2025, 5, 19), "Rehabilitación de hombro"));
+
+        // Mostrar historial de cada paciente
+        for (Paciente p : List.of(juan, maria, miguel)) {
+            System.out.println("Historial de " + p.getNombre() + ":");
+            for (String entrada : p.getHistorial()) {
+                System.out.println("  - " + entrada);
+            }
+            System.out.println();
+        }
     }
 }
