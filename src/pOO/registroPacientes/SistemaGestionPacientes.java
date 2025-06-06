@@ -31,5 +31,11 @@ public class SistemaGestionPacientes {
             }
             System.out.println();
         }
+
+        // Mostrar todas las consultas
+        System.out.println("Consultas registradas:");
+        for (Consulta c : consultas) {
+            System.out.println(c);
+        }
     }
 }
