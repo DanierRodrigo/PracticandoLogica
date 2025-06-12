@@ -15,4 +15,37 @@ public class Juego {
         this.anioCreacion = anioCreacion;
         this.desarrolladora = desarrolladora;
     }
+
+    //Getters y setters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getAnioCreacion() {
+        return anioCreacion;
+    }
+
+    public void setAnioCreacion(int anioCreacion) {
+        this.anioCreacion = anioCreacion;
+    }
+
+    public String getPlataforma() {
+        return plataforma;
+    }
+
+    public void setPlataforma(String plataforma) {
+        this.plataforma = plataforma;
+    }
+
+    public String getDesarrolladora() {
+        return desarrolladora;
+    }
+
+    public void setDesarrolladora(String desarrolladora) {
+        this.desarrolladora = desarrolladora;
+    }
 }
