@@ -48,4 +48,10 @@ public class Juego {
     public void setDesarrolladora(String desarrolladora) {
         this.desarrolladora = desarrolladora;
     }
+
+    //toString
+    @Override
+    public String toString() {
+        return nombre + " (" + plataforma + ", " + anioCreacion + ") - " + desarrolladora;
+    }
 }
