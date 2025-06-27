@@ -12,4 +12,9 @@ public class ColeccionJuegos {
     public ColeccionJuegos() {
         this.juegos = new ArrayList<>();
     }
+
+    public void agregarJuego(Juego juego) {
+        juegos.add(juego);
+        System.out.println("Juego agregado: " + juego.getNombre());
+    }
 }
