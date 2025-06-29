@@ -17,4 +17,9 @@ public class ColeccionJuegos {
         juegos.add(juego);
         System.out.println("Juego agregado: " + juego.getNombre());
     }
+
+    public void eliminarJuego(String nombre) {
+        juegos.removeIf(j -> j.getNombre().equalsIgnoreCase(nombre));
+        System.out.println("Juego eliminado: " + nombre);
+    }
 }
