@@ -22,4 +22,14 @@ public class ColeccionJuegos {
         juegos.removeIf(j -> j.getNombre().equalsIgnoreCase(nombre));
         System.out.println("Juego eliminado: " + nombre);
     }
+
+    public void listarJuegos() {
+        if (juegos.isEmpty()) {
+            System.out.println("No hay juegos en la colección.");
+        } else {
+            for (Juego juego : juegos) {
+                System.out.println(juego);
+            }
+        }
+    }
 }
