@@ -32,4 +32,13 @@ public class ColeccionJuegos {
             }
         }
     }
+
+    public Juego buscarPorNombre(String nombre) {
+        for (Juego j : juegos) {
+            if (j.getNombre().equalsIgnoreCase(nombre)) {
+                return j;
+            }
+        }
+        return null;
+    }
 }
