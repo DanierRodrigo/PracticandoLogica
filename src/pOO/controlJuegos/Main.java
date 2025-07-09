@@ -6,4 +6,6 @@ public class Main {
     }
     //Creación de juegos
     Juego juego1 = new Juego("The Legend of Zelda", "Nintendo Switch", 2017, "Nintendo");
+
+    Juego juego2 = new Juego("God of War", "PlayStation 4", 2018, "Santa Monica Studio");
 }
