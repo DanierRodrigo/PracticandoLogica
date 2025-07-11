@@ -10,4 +10,6 @@ public class Main {
     Juego juego2 = new Juego("God of War", "PlayStation 4", 2018, "Santa Monica Studio");
 
     Juego juego3 = new Juego("Donkey Kong Land", "Game Boy", 1995, "Rare");
+
+    Juego juego4 = new Juego("Wave Race", "Nintendo 64", 1997, "Nintendo");
 }
