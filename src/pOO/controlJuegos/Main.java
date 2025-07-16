@@ -16,4 +16,6 @@ public class Main {
     Juego juego5 = new Juego("Metroid Prime", "Nintendo Game Cube", 2002, "Nintendo");
 
     Juego juego6 = new Juego("Super Mario World", "Super Nintendo", 1991, "Nintendo");
+
+    Juego juego7 = new Juego("Castlevania Symphony of the night", "Play Station", 1999, "Konami");
 }
