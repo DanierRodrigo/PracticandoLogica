@@ -18,4 +18,6 @@ public class Main {
     Juego juego6 = new Juego("Super Mario World", "Super Nintendo", 1991, "Nintendo");
 
     Juego juego7 = new Juego("Castlevania Symphony of the night", "Play Station", 1999, "Konami");
+
+    Juego juego8 = new Juego("Contra III The Alien Wars", "Super Nintendo", 1992, "Konami");
 }
