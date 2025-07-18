@@ -20,4 +20,7 @@ public class Main {
     Juego juego7 = new Juego("Castlevania Symphony of the night", "Play Station", 1999, "Konami");
 
     Juego juego8 = new Juego("Contra III The Alien Wars", "Super Nintendo", 1992, "Konami");
+
+    Juego juego9 = new Juego("Kirby Return to Dreamland", "Nintendo Switch", 2020, "Nintendo");
+
 }
