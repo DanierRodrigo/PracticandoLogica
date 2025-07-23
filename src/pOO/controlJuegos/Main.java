@@ -23,4 +23,6 @@ public class Main {
 
     Juego juego9 = new Juego("Kirby Return to Dreamland", "Nintendo Switch", 2020, "Nintendo");
 
+    Juego juego10 = new Juego("Sonic the hedgehog", "Sega Megadrive", 1991, "Sonic Team");
+
 }
