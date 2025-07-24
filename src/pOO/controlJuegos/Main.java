@@ -25,4 +25,6 @@ public class Main {
 
     Juego juego10 = new Juego("Sonic the hedgehog", "Sega Megadrive", 1991, "Sonic Team");
 
+    Juego juego11 = new Juego("Grand thef auto III", "Play Station 2", 2001, "RockStar");
+
 }
