@@ -27,4 +27,6 @@ public class Main {
 
     Juego juego11 = new Juego("Grand thef auto III", "Play Station 2", 2001, "RockStar");
 
+    Juego juego12 = new Juego("Pokémon Azúl", "Game Boy", 1998, "Game Freak");
+
 }
