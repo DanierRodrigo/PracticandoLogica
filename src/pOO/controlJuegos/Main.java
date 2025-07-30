@@ -29,4 +29,6 @@ public class Main {
 
     Juego juego12 = new Juego("Pokémon Azúl", "Game Boy", 1998, "Game Freak");
 
+    Juego juego13 = new Juego("Fifa Street 2", "Play Station Portable", 2006, "EA Sports");
+
 }
